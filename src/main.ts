@@ -15,7 +15,7 @@ async function bootstrap() {
     origin: [
       'http://localhost:3001',
       'http://localhost:5173',
-      'https://drvardanyan-fe.vercel.app',
+      'https://www.drvardanyan.life',
     ],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     credentials: true, // if you use cookies or authorization headers
