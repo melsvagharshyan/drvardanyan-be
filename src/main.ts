@@ -12,7 +12,11 @@ async function bootstrap() {
   );
 
   app.enableCors({
-    origin: ['http://localhost:3001', 'http://localhost:5173'],
+    origin: [
+      'http://localhost:3001',
+      'http://localhost:5173',
+      'https://drvardanyan-fe.vercel.app',
+    ],
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE', 'OPTIONS'],
     credentials: true, // if you use cookies or authorization headers
   });
