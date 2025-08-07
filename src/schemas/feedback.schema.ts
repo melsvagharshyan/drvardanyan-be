@@ -19,5 +19,5 @@ export const FeedbackSchema = new Schema({
     public_id: { type: String, required: false },
     url: { type: String, required: false },
   },
-  approved: { type: Boolean, default: false },
+  approved: { type: Boolean, default: true },
 });
